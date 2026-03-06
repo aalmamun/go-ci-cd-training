@@ -6,7 +6,7 @@ import (
 )
 
 func add(a, b int) int {
-	return a + b
+	return a + b + 1
 }
 
 func handler(w http.ResponseWriter, r *http.Request) {
